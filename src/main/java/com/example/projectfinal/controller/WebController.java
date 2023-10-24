@@ -89,6 +89,13 @@ public class WebController {
         return ResponseEntity.ok().body(result);
     }
 
+    @GetMapping("/test")
+    public ResponseEntity<Object> test( ){
+
+
+        return ResponseEntity.ok().body("test");
+    }
+
     @GetMapping("/purchases")
     public ResponseEntity<Object> Purchases(Pageable pageable){
         Page<Purchase> result = webService.Purchases(pageable);
