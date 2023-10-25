@@ -138,47 +138,4 @@ public class WebController {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-    @GetMapping("/jenkins")
-    public ResponseEntity<Object> jenkins( ){
-       
-
-        return ResponseEntity.ok().body("jenkins 빌드 후");
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
 }
