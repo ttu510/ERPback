@@ -27,6 +27,6 @@ public class Purchase {
     @ManyToOne
     private Item item;
 
-    @CreationTimestamp
-    private LocalDateTime createdate;
+    @Temporal(TemporalType.DATE)
+    private Date createdate;
 }
