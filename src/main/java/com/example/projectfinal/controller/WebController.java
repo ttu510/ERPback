@@ -91,7 +91,7 @@ public class WebController {
 
 
 
-    @GetMapping("/purchases")
+    @GetMapping("/purchase")
     public ResponseEntity<Object> Purchases(Pageable pageable){
         Page<Purchase> result = webService.Purchases(pageable);
 
