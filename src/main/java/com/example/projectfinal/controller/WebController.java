@@ -153,7 +153,7 @@ public class WebController {
     public ResponseEntity<Object> jenkins( ){
        
 
-        return ResponseEntity.ok().body("jenkins 빌드 전");
+        return ResponseEntity.ok().body("jenkins 빌드 후");
     }
     
     
