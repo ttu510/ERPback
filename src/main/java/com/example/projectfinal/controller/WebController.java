@@ -82,7 +82,7 @@ public class WebController {
 //        return ResponseEntity.ok().body(result);
 //    }
 
-    @GetMapping("/")
+    @GetMapping("/main")
     public ResponseEntity<Object> Main( ){
         MainVO result = webService.Main();
 
