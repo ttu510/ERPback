@@ -92,8 +92,8 @@ public class WebController {
 
 
     @GetMapping("/purchase")
-    public ResponseEntity<Object> Purchases(Pageable pageable){
-        Page<Purchase> result = webService.Purchases(pageable);
+    public ResponseEntity<Object> Purchase(Pageable pageable){
+        Page<Purchase> result = webService.Purchase(pageable);
 
         return ResponseEntity.ok().body(result);
     }

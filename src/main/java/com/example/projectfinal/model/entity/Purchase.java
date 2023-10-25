@@ -28,5 +28,5 @@ public class Purchase {
     private Item item;
 
     @CreationTimestamp
-    private LocalDateTime createdat;
+    private LocalDateTime createdate;
 }

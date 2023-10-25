@@ -44,7 +44,7 @@ public class WebService {
 
         return mainVO;
     }
-    public Page<Purchase> Purchases(Pageable pageable){
+    public Page<Purchase> Purchase(Pageable pageable){
         Page<Purchase> result = purchaseRepository.findAll(pageable);
 
 
